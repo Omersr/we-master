@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background: teal;
+  padding: 1rem;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.products {
+  display: flex;
+  /* pushes the items down if there is no space */
+  flex-wrap: wrap;
+}
+
+main {
+  padding: 1rem;
+}
+
+.product {
+  border: 1px teal solid;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.product img {
+  width: 100%;
+}
